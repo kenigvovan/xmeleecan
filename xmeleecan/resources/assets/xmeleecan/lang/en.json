@@ -1,0 +1,9 @@
+{
+  "game:tabname-xmeleecan": "xmeleecan",
+  "blade_component": "Blade({0}), shape: {1}",
+  "guard_component": "Crossguard({0}), shape: {1}",
+  "handle_component": "Handle({0}), shape: {1}",
+  "zweihander": "Zweihander ({0})",
+  "head_component": "Head({0}), shape: {1}",
+  "halberd": "Halberd ({0})"
+}

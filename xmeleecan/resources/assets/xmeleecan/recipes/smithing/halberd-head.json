@@ -1,0 +1,30 @@
+[
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:ingot-*",
+      "name": "metal",
+      "allowedVariants": [ "tinbronze", "bismuthbronze", "blackbronze", "silver", "iron", "meteoriciron", "steel" ]
+    },
+    "pattern": [
+      [
+        "______#_____",
+        "______#_____",
+        "############",
+        "###########_",
+        "______#_____",
+        "____#####___",
+        "____#####___"
+      ]
+    ],
+    "name": "Halberd head clean",
+    "output": {
+      "type": "item",
+      "code": "xmeleecan:canhalberdcomponent-head",
+      "attributes": {
+        "head": "{metal}",
+        "head_type": "clean"
+      }
+    }
+  }
+]

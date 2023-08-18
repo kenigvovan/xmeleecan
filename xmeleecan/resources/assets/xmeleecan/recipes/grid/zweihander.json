@@ -1,0 +1,27 @@
+{
+  "ingredientPattern": "T,B,F",
+  "ingredients": {
+    "T": {
+      "type": "item",
+      "code": "xmeleecan:canzweihandercomponent-blade",
+      "name": "material"
+    },
+    "B": {
+      "type": "item",
+      "code": "xmeleecan:canzweihandercomponent-guard",
+      "name": "material"
+    },
+    "F": {
+      "type": "item",
+      "code": "xmeleecan:canzweihandercomponent-handle",
+      "name": "material"
+    }
+  },
+  "width": 1,
+  "height": 3,
+  "output": {
+    "type": "item",
+    "code": "xmeleecan:canzweihander-iron",
+    "quantity": 1
+  }
+}

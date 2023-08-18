@@ -1,0 +1,33 @@
+[
+  {
+    "ingredientPattern": "SL,TL",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:saw-*",
+        "isTool": true,
+        "toolDurabilityCost": 2
+      },
+      "L": {
+        "type": "block",
+        "code": "game:log-placed-*-ud",
+        "name": "wood"
+      },
+      "T": {
+        "type": "item",
+        "code": "game:stick"
+      }
+    },
+    "width": 2,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "xmeleecan:canhalberdcomponent-handle",
+      "quantity": 1,
+      "attributes": {
+        "handle": "{wood}",
+        "handle_type": "clean"
+      }
+    }
+  }
+]

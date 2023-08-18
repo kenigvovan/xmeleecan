@@ -1,0 +1,52 @@
+[
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:ingot-*",
+      "name": "metal",
+      "allowedVariants": [ "tinbronze", "bismuthbronze", "blackbronze", "silver", "iron", "meteoriciron", "steel" ]
+    },
+    "pattern": [
+      [
+        "__#_____________",
+        "################",
+        "################",
+        "__#_____________"
+      ]
+    ],
+    "name": "zwei-blade-ears",
+    "output": {
+      "type": "item",
+      "code": "xmeleecan:canzweihandercomponent-blade",
+      "attributes": {
+        "blade": "{metal}",
+        "blade_type": "ears"
+      }
+    }
+  },
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:ingot-*",
+      "name": "metal",
+      "allowedVariants": [ "tinbronze", "bismuthbronze", "blackbronze", "silver", "iron", "meteoriciron", "steel" ]
+    },
+    "pattern": [
+      [
+        "________________",
+        "################",
+        "################",
+        "________________"
+      ]
+    ],
+    "name": "zwei-blade-clean",
+    "output": {
+      "type": "item",
+      "code": "xmeleecan:canzweihandercomponent-blade",
+      "attributes": {
+        "blade": "{metal}",
+        "blade_type": "clean"
+      }
+    }
+  }
+]

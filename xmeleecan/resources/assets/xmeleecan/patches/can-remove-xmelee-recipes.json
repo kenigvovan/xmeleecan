@@ -1,0 +1,16 @@
+[
+  {
+    "file": "xmelee:recipes/smithing/halberdhead",
+    "side": "server",
+    "op": "add",
+    "path": "/enabled",
+    "value": "false"
+  },
+  {
+    "file": "xmelee:recipes/smithing/zweihanderhead",
+    "side": "server",
+    "op": "add",
+    "path": "/enabled",
+    "value": "false"
+  }
+]

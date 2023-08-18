@@ -1,0 +1,67 @@
+[
+  {
+    "ingredientPattern": "T_T,LGL",
+    "ingredients": {
+      "G": {
+        "type": "item",
+        "code": "xmelee:xweapongrip-*",
+        "name": "material_grip",
+        "allowedVariants": [ "iron", "steel", "meteoriciron" ]
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-*",
+        "name": "material",
+        "allowedVariants": [ "black", "orange", "purple", "red", "blue", "pink", "white", "yellow", "gray", "green" ]
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width":3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "xmeleecan:canzweihandercomponent-handle",
+      "quantity": 1,
+      "attributes": {
+        "handle": "{material}",
+        "handle_type": "clean"
+      }
+    }
+  },
+  {
+    "ingredientPattern": "_T_,LGL,_T_",
+    "ingredients": {
+      "G": {
+        "type": "item",
+        "code": "xmelee:xweapongrip-*",
+        "name": "material_grip",
+        "allowedVariants": [ "iron", "steel", "meteoriciron" ]
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-*",
+        "name": "material",
+        "allowedVariants": [ "black", "orange", "purple", "red", "blue", "pink", "white", "yellow", "gray", "green" ]
+      },
+
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "item",
+      "code": "xmeleecan:canzweihandercomponent-handle",
+      "quantity": 1,
+      "attributes": {
+        "handle": "{material}",
+        "handle_type": "double"
+      }
+    }
+  }
+]

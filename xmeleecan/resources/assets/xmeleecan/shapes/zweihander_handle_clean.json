@@ -1,0 +1,102 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 32,
+	"textureSizes": {
+		"handle": [ 32, 32 ]
+	},
+	"textures": {
+		"handle": "handle"
+	},
+	"elements": [
+		{
+			"name": "handle",
+			"from": [ 0.9504, -0.5233, 7.4767 ],
+			"to": [ 9.333, 0.5233, 8.5233 ],
+			"rotationOrigin": [ 5.1417, 0.0, 8.0 ],
+			"faces": {
+				"north": {
+					"texture": "#handle",
+					"uv": [ 16.0, 9.5, 0.0, 11.5 ],
+					"autoUv": false
+				},
+				"east": {
+					"texture": "#handle",
+					"uv": [ 7.5, 8.5, 5.5, 10.5 ],
+					"autoUv": false
+				},
+				"south": {
+					"texture": "#handle",
+					"uv": [ 0.0, 7.5, 16.0, 9.5 ],
+					"autoUv": false
+				},
+				"west": {
+					"texture": "#handle",
+					"uv": [ 10.0, 12.5, 8.0, 14.5 ],
+					"autoUv": false
+				},
+				"up": {
+					"texture": "#handle",
+					"uv": [ 16.0, 4.0, 0.0, 6.0 ],
+					"rotation": 180,
+					"autoUv": false
+				},
+				"down": {
+					"texture": "#handle",
+					"uv": [ 16.0, 7.5, 0.0, 9.5 ],
+					"rotation": 180,
+					"autoUv": false
+				}
+			},
+			"children": [
+				{
+					"name": "p.001",
+					"from": [ -0.2063, -0.1816, -0.1816 ],
+					"to": [ 0.4792, 1.2282, 1.2282 ],
+					"rotationOrigin": [ 0.1364, 0.5233, 0.5233 ],
+					"faces": {
+						"north": {
+							"texture": "#blade",
+							"uv": [ 4.5, 10.0, 8.5, 12.0 ],
+							"rotation": 270,
+							"autoUv": false
+						},
+						"east": {
+							"texture": "#blade",
+							"uv": [ 11.5, 11.5, 7.5, 13.5 ],
+							"rotation": 90,
+							"autoUv": false
+						},
+						"south": {
+							"texture": "#blade",
+							"uv": [ 5.0, 4.5, 9.0, 6.5 ],
+							"rotation": 270,
+							"autoUv": false
+						},
+						"west": {
+							"texture": "#blade",
+							"uv": [ 9.0, 9.5, 5.0, 11.5 ],
+							"rotation": 90,
+							"autoUv": false
+						},
+						"up": {
+							"texture": "#blade",
+							"uv": [ 9.0, 6.0, 5.0, 8.0 ],
+							"rotation": 270,
+							"autoUv": false
+						},
+						"down": {
+							"texture": "#blade",
+							"uv": [ 10.0, 5.5, 6.0, 7.5 ],
+							"rotation": 270,
+							"autoUv": false
+						}
+					}
+				}
+			]
+		}
+	]
+}

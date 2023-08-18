@@ -1,0 +1,236 @@
+{
+  "code": "canhalberdcomponent",
+  "class": "CANItemHalberdComponent",
+  "shapeByType": {
+    "*": { "base": "zweihander_handle" }
+  },
+  "heldTpHitAnimation": "axechop",
+  "texturesByType": {
+    "*": {
+      "1": { "base": "xmelee:xmelee_steel" },
+      "blade": { "base": "game:block/metal/ingot/gold" },
+      "handle": { "base": "game:block/metal/ingot/gold" }
+    }
+  },
+
+  "attributes": {
+    "handbook": {
+      "groupBy": [ "sword-*" ]
+    },
+    "variantGroups": {
+      "head": [ "tinbronze", "bismuthbronze", "blackbronze", "silver", "iron", "meteoriciron", "steel" ],
+      "handle": [ "acacia", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut" ],
+      "head_type": [ "clean" ],
+      "handle_type": [ "clean" ]
+    },
+    "allowedVariants": [
+      {
+        "construction": "head",
+        "head": "*",
+        "head_type": "*"
+      },
+      {
+        "construction": "handle",
+        "handle": "*",
+        "handle_type": "*"
+      }
+    ],
+    "toolrackTransformByType": {
+      "*": {
+        "rotation": {
+          "x": 90,
+          "y": 0,
+          "z": -1
+        },
+        "translation": {
+          "x": 0.1,
+          "y": 0.016,
+          "z": 0.75
+        },
+        "scale": 1.5
+      }
+    }
+  },
+  "variantgroups": [
+    {
+      "code": "construction",
+      "states": [ "head", "handle"]
+    }
+  ],
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "tools": [ "*" ]
+  },
+  "guiTransformByType": {
+    "*-handle": {
+        "translation": {
+          "x": 14,
+          "y": -10,
+          "z": 6
+        },
+        "rotation": {
+          "x": 20,
+          "y": 0,
+          "z": -45
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0.5
+        },
+        "scale": 2.69
+    },
+    "*-head": {
+        "translation": {
+          "x": -78.5,
+          "y": 92.5,
+          "z": 4.8
+        },
+        "rotation": {
+          "x": 6,
+          "y": -40,
+          "z": -37
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0.5
+        },
+        "scale": 2.15
+    },
+    "*": {
+      "translation": {
+        "x": -7.0,
+        "y": 12.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 20,
+        "y": 0,
+        "z": -45
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.9
+    }
+  },
+  "fpHandTransformByType": {
+    "*-handle": {
+        "translation": {
+          "x": 0,
+          "y": 0.7,
+          "z": 0
+        },
+        "rotation": {
+          "x": -68,
+          "y": -11,
+          "z": 105
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0.5
+        },
+        "scale": 2.28
+    },
+    "*-head": {
+      "translation": {
+        "x": 0.5,
+        "y": -1.5,
+        "z": 1.8
+      },
+      "rotation": {
+        "x": -71,
+        "y": 96,
+        "z": 106
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 2.62
+    },
+    "*-guard": {
+      "translation": {
+        "x": -0.1,
+        "y": 0.5,
+        "z": 0.4
+      },
+      "rotation": {
+        "x": -31,
+        "y": 84,
+        "z": 124
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 2.45
+
+    },
+    "*": {
+      "translation": {
+        "x": -0.0,
+        "y": 0.5,
+        "z": 0.4
+      },
+      "rotation": {
+        "x": -72,
+        "y": 90,
+        "z": 105
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 2.45
+    }
+  },
+  "groundTransformByType": {
+    "*": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.03,
+        "z": 0
+      },
+      "rotation": {
+        "x": 90,
+        "y": 0,
+        "z": -1.0
+      },
+      "origin": {
+        "x": 1.1,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 5.8
+    }
+  },
+  "tpHandTransformByType": {
+    "*": {
+      "translation": {
+        "x": -0.76,
+        "y": -0.01,
+        "z": -0.51
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.6,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 0.95
+    }
+  }
+}

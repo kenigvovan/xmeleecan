@@ -1,0 +1,103 @@
+[
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:ingot-*",
+      "name": "metal",
+      "allowedVariants": [ "tinbronze", "bismuthbronze", "blackbronze", "silver", "iron", "meteoriciron", "steel" ]
+    },
+    "pattern": [
+      [
+        "#######",
+        "_______",
+        "#######"
+      ],
+      [
+        "#######",
+        "_______",
+        "#######"
+      ]
+    ],
+    "name": "zwei-guard-clean",
+    "output": {
+      "type": "item",
+      "quantity": 2,
+      "code": "xmeleecan:canzweihandercomponent-guard",
+      "attributes": {
+        "guard": "{metal}",
+        "guard_type": "clean"
+      }
+    }
+  },
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:ingot-*",
+      "name": "metal",
+      "allowedVariants": [ "tinbronze", "bismuthbronze", "blackbronze", "silver", "iron", "meteoriciron", "steel" ]
+    },
+    "pattern": [
+      [
+        "___#___",
+        "___#___",
+        "#######",
+        "#_###_#",
+        "#######",
+        "___#___",
+        "___#___"
+      ],
+      [
+        "_______",
+        "_______",
+        "_#___#_",
+        "#_#_#_#",
+        "_#___#_",
+        "_______",
+        "_______"
+      ]
+    ],
+    "name": "zwei-guard-ears",
+    "output": {
+      "type": "item",
+      "quantity": 1,
+      "code": "xmeleecan:canzweihandercomponent-guard",
+      "attributes": {
+        "guard": "{metal}",
+        "guard_type": "ears"
+      }
+    }
+  },
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:ingot-*",
+      "name": "metal",
+      "allowedVariants": [ "tinbronze", "bismuthbronze", "blackbronze", "silver", "iron", "meteoriciron", "steel" ]
+    },
+    "pattern": [
+      [
+        "_#_____#_",
+        "###___###",
+        "_#######_",
+        "___###___"
+      ],
+      [
+        "_#_____#_",
+        "###___###",
+        "_#######_",
+        "___###___"
+      ]
+    ],
+    "name": "zwei-guard-v",
+    "output": {
+      "type": "item",
+      "quantity": 1,
+      "code": "xmeleecan:canzweihandercomponent-guard",
+      "attributes": {
+        "guard": "{metal}",
+        "guard_type": "v"
+      }
+    }
+  }
+ 
+]

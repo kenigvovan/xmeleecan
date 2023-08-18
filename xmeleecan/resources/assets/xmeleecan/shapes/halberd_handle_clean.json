@@ -1,0 +1,29 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 32,
+	"textureSizes": {
+		"handle": [32,32]
+	},
+	"textures": {
+		"handle": "handle"
+	},
+	"elements": [
+		{
+			"name": "handle",
+			"from": [ -14.168, -0.4517, 7.5483 ], 
+			"to": [ 48.213, 0.4517, 8.4517 ], 
+			"rotationOrigin": [ 17.0225, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#handle", "uv": [ 0.0, 17.0, 32.0, 19.0 ], "autoUv": false },
+				"east": { "texture": "#handle", "uv": [ 31.0, 11.0, 29.0, 13.0 ], "autoUv": false },
+				"south": { "texture": "#handle", "uv": [ 0.0, 17.0, 32.0, 19.0 ], "autoUv": false },
+				"west": { "texture": "#handle", "uv": [ 31.0, 11.0, 29.0, 13.0 ], "autoUv": false },
+				"up": { "texture": "#handle", "uv": [ 0.0, 6.0, 32.0, 8.0 ], "rotation": 180, "autoUv": false },
+				"down": { "texture": "#handle", "uv": [ 0.0, 14.0, 32.0, 16.0 ], "rotation": 180, "autoUv": false }
+			}
+		}
+	]}

@@ -1,0 +1,227 @@
+{
+  "code": "canzweihander",
+  "class": "CANItemZweihander",
+  "damagedby": [ "attacking" ],
+  "tool": "sword",
+  "shapeByType": {
+    "*": { "base": "zweihander_handle" }
+  },
+  "heldTpHitAnimation": "axechop",
+  "texturesByType": {
+    "*": {
+      "1": { "base": "xmelee:xmelee_steel" },
+      "blade": { "base": "game:block/metal/ingot/gold" },
+      "handle": { "base": "game:block/metal/ingot/gold" }
+    }
+  },
+  "attackRange": 3.0,
+  "attackpowerbytype": {
+    "*-iron": 6.0,
+    "*-meteoriciron": 6.5,
+    "*-steel": 7.0,
+    "*-tinbronze": 5,
+    "*-bismuthbronze": 5,
+    "*-blackbronze": 5,
+    "*-silver": 5
+  },
+  "tooltierbytype": {
+    "*-iron": 4,
+    "*-meteoriciron": 4,
+    "*-steel": 5
+  },
+  "durabilitybytype": {
+    "*-iron": 850,
+    "*-meteoriciron": 1400,
+    "*-steel": 2400,
+    "*-tinbronze": 450,
+    "*-bismuthbronze": 500,
+    "*-blackbronze": 550,
+    "*-silver": 175
+  },
+  "attributes": {
+    "canAttackWithShield": false,
+    "canParryWithShield": false,
+    "attackDelay": 0.4,
+    "attackWindow": 0.7,
+    "attackTime": 0.8,
+    "attackWalkspeed": -0.6,
+    "parryDelay": 0.05,
+    "parryWindow": 0.6,
+    "parryTime": 0.7,
+    "parryWalkspeed": -0.4,
+    "stunnedTime": 1.1,
+    "handbook": {
+      "groupBy": [ "sword-*" ]
+    },
+    "variantGroups": {
+      "blade": [ "tinbronze", "bismuthbronze", "blackbronze", "silver", "iron", "meteoriciron", "steel" ],
+      "guard": [ "tinbronze", "bismuthbronze", "blackbronze", "silver", "iron", "meteoriciron", "steel" ],
+      "handle": [ "black", "orange", "purple", "red", "blue", "pink", "white", "yellow", "gray", "green" ],
+      "blade_type": [ "clean", "ears" ],
+      "guard_type": [ "clean", "ears", "v" ],
+      "handle_type": [ "clean", "double" ]
+    },
+    "allowedVariants": [
+      {
+        "construction": "iron",
+        "blade": "iron",
+        "guard": "*",
+        "handle": "*",
+        "blade_type": "*",
+        "guard_type": "*"
+      },
+      {
+        "construction": "steel",
+        "blade": "steel",
+        "guard": "*",
+        "handle": "*",
+        "blade_type": "*",
+        "guard_type": "*"
+      },
+      {
+        "construction": "meteoriciron",
+        "blade": "meteoriciron",
+        "guard": "*",
+        "handle": "*",
+        "blade_type": "*",
+        "guard_type": "*"
+      },
+      {
+        "construction": "tinbronze",
+        "blade": "tinbronze",
+        "guard": "*",
+        "handle": "*",
+        "blade_type": "*",
+        "guard_type": "*"
+      },
+      {
+        "construction": "bismuthbronze",
+        "blade": "bismuthbronze",
+        "guard": "*",
+        "handle": "*",
+        "blade_type": "*",
+        "guard_type": "*"
+      },
+      {
+        "construction": "blackbronze",
+        "blade": "blackbronze",
+        "guard": "*",
+        "handle": "*",
+        "blade_type": "*",
+        "guard_type": "*"
+      },
+      {
+        "construction": "silver",
+        "blade": "silver",
+        "guard": "*",
+        "handle": "*",
+        "blade_type": "*",
+        "guard_type": "*"
+      }
+    ],
+    "toolrackTransformByType": {
+      "*": {
+        "rotation": {
+          "x": 90,
+          "y": 0,
+          "z": -1
+        },
+        "translation": {
+          "x": 0.1,
+          "y": 0.016,
+          "z": 0.75
+        },
+        "scale": 1.5
+      }
+    }
+  },
+  "variantgroups": [
+    {
+      "code": "construction",
+      "states": [ "iron", "steel", "meteoriciron", "tinbronze", "blackbronze", "silver", "bismuthbronze" ]
+    }
+  ],
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ],
+    "tools": [ "*" ]
+  },
+  "guiTransformByType": {
+    "*": {
+      "translation": {
+        "x": -7.0,
+        "y": 12.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 20,
+        "y": 0,
+        "z": -45
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.0,
+        "z": 0.5
+      },
+      "scale": 0.9
+    }
+  },
+  "fpHandTransform": {
+    "translation": {
+      "x": -0.0,
+      "y": 0.5,
+      "z": 0.4
+    },
+    "rotation": {
+      "x": -72,
+      "y": 90,
+      "z": 105
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 2.45
+  },
+  "groundTransformByType": {
+    "*": {
+      "translation": {
+        "x": 0.0,
+        "y": 0.03,
+        "z": 0
+      },
+      "rotation": {
+        "x": 90,
+        "y": 0,
+        "z": -1.0
+      },
+      "origin": {
+        "x": 1.1,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 5.8
+    }
+  },
+  "tpHandTransformByType": {
+    "*": {
+      "translation": {
+        "x": -0.76,
+        "y": -0.01,
+        "z": -0.51
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.6,
+        "y": 0,
+        "z": 0.5
+      },
+      "scale": 0.95
+    }
+  }
+}

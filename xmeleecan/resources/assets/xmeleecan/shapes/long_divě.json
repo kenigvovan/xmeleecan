@@ -1,0 +1,30 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"1": [32,32]
+	},
+	"textures": {
+		"1": "xmelee_steel"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ 9.3, -3.25, 7.5 ], 
+			"to": [ 9.7, -2.75, 14.5 ], 
+			"rotationOrigin": [ 10.0, -3.0, 8.0 ],
+			"rotationX": -90.0,
+			"faces": {
+				"north": { "texture": "#1", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"east": { "texture": "#1", "uv": [ 0.0, 0.0, 7.0, 1.0 ] },
+				"south": { "texture": "#1", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"west": { "texture": "#1", "uv": [ 0.0, 0.0, 7.0, 1.0 ] },
+				"up": { "texture": "#1", "uv": [ 0.0, 0.0, 1.0, 7.0 ] },
+				"down": { "texture": "#1", "uv": [ 0.0, 0.0, 1.0, 7.0 ] }
+			}
+		}
+	]}

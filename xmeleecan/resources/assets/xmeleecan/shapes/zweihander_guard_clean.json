@@ -1,0 +1,30 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 32,
+	"textureSizes": {
+		"1": [32,32]
+	},
+	"textures": {
+		"guard": "guard"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ 9.3, -3.25, 7.5 ], 
+			"to": [ 9.7, -2.75, 14.5 ], 
+			"rotationOrigin": [ 10.0, -3.0, 8.0 ],
+			"rotationX": -90.0,
+			"faces": {
+				"north": { "texture": "#guard", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"east": { "texture": "#guard", "uv": [ 0.0, 0.0, 7.0, 1.0 ] },
+				"south": { "texture": "#guard", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"west": { "texture": "#guard", "uv": [ 0.0, 0.0, 7.0, 1.0 ] },
+				"up": { "texture": "#guard", "uv": [ 0.0, 0.0, 1.0, 7.0 ] },
+				"down": { "texture": "#guard", "uv": [ 0.0, 0.0, 1.0, 7.0 ] }
+			}
+		}
+	]}

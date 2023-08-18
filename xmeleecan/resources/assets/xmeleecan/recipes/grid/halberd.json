@@ -1,0 +1,22 @@
+{
+  "ingredientPattern": "__T,_F_,F__",
+  "ingredients": {
+    "T": {
+      "type": "item",
+      "code": "xmeleecan:canhalberdcomponent-head",
+      "name": "material"
+    },
+    "F": {
+      "type": "item",
+      "code": "xmeleecan:canhalberdcomponent-handle",
+      "name": "material"
+    }
+  },
+  "width": 3,
+  "height": 3,
+  "output": {
+    "type": "item",
+    "code": "xmeleecan:canhalberd-iron",
+    "quantity": 1
+  }
+}
